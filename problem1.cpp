@@ -1,13 +1,14 @@
 #include <iostream>
 
+using namespace std;
 int main()
 {
     long int a;
-    std::cin >> a;
+    cin >> a;
     if(a < 2147483647 && a > -2147483647) {
-        std::cout << "Yes" << std::endl;
+        cout << "Yes" << endl;
     }
     else {
-        std::cout << "No" << std::endl;
+        cout << "No" << endl;
     }
 }
